@@ -6,12 +6,6 @@ insert into employee values
 ('dani',23,'developer',12000.00,null,1,'https//:celve.com'),
 
 
-insert into employee values  
-('ruukkkn',22,'developer',12000.00,
-(select bulkcolumn 
-from openrowset(bulk 'D:\SQL SERVER QUERYS\\danie.jpg',single_blob)as img)
-,1,'www.danvi.com')
-
 
 create database kaashiv
 
