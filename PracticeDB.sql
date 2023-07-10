@@ -68,7 +68,8 @@ select * from empl1 where stu_name like 'A%A'
 ('paul',31,'ceo',10000.00,null,0,'https://secure.indeedwe.com')
 
 =====================================================================================================================================================
-
+use PracticeDB
+select * from empl
 
 
 /*File storing query*/
