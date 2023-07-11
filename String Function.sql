@@ -5,8 +5,6 @@ Department_nam varchar (50),
 Manager varchar(50)
 );
 go
-drop table Employee
-
 drop table Department
 
 insert into Department values ('IT','Ram'),('Account','Vijay'),('NON_IT','Guru'),('Others','Laxm')
