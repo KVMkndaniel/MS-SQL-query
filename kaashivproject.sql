@@ -1,7 +1,7 @@
 use  kaashiv
 
 
-
+select * from student
 
 insert into student values
 ('kumar',23,'developer',50000.00,(select bulkcolumn from openrowset (bulk 'D:\SQL SERVER QUERYS\\danie.jpg',single_blob)as img),1,'https://kumar55.com'),
