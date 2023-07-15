@@ -1,6 +1,6 @@
 use  kaashiv
 
-select * from student
+
 
 
 insert into student values
